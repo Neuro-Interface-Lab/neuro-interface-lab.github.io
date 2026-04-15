@@ -4,7 +4,9 @@ layout: default
 
 {% include site_header.html %}
 
-{{ content }}
+<section class="home-content">
+  {{ content }}
+</section>
 
 {% if site.theme_config.show_projects == true %}
   <h2 id="projects">{{ site.theme_config.home.title_projects }}</h2>

@@ -1,5 +1,9 @@
 .w {
-  max-width: 760px;
+  max-width: 860px;
+}
+
+:root {
+  --content-width: 48rem;
 }
 
 body {
@@ -54,16 +58,19 @@ h2 {
   font-size: 1rem;
   line-height: 1.82;
   margin-bottom: 2rem;
-  max-width: 46rem;
 }
 
 #team {
   margin-bottom: 2.5rem;
-  max-width: 42rem;
 }
 
 .content-page {
   margin-top: 2rem;
+  max-width: var(--content-width);
+}
+
+.home-content {
+  max-width: var(--content-width);
 }
 
 .content-page-header {
@@ -108,12 +115,15 @@ ol.bibliography li {
 }
 
 .content-page p,
-.content-page li {
-  max-width: 48rem;
+.home-content p {
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .research-figure {
   margin: 1.25rem 0 1.75rem;
+  max-width: var(--content-width);
 }
 
 .research-figure img {
@@ -122,6 +132,7 @@ ol.bibliography li {
   display: block;
   height: auto;
   max-width: 100%;
+  width: 100%;
 }
 
 .research-figure figcaption {

@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Open Science
-description: Open-source contributions, shared tools, and community resources.
+description: resources.
 permalink: /open-science/
 ---
 
-## Open Science
-
-Open science is a core component of the lab’s research practice.  
+Open science is the core component of the lab’s research practice.  
 We aim to make our work **reproducible**, **reusable**, and **accessible** through open-source software, open hardware, public documentation, and transparent scientific workflows.  
 The projects below reflect this commitment across instrumentation, experimental electrophysiology, and neurocomputational modeling.
 
