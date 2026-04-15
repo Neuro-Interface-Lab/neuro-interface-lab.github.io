@@ -1,29 +1,52 @@
 navbar_entries:
-  - title: À propos
-    url: "#about"
+  - title: Main
+    url: /
 
-  - title: Équipe
-    url: "#team"
+  - title: Research
+    url: /research
 
-  - title: Projets
-    url: "#projects"
+  - title: Open Science
+    url: /open-science
+
+  - title: Team
+    url: /team
+
+  - title: Publications
+    url: /publications
+
+  - title: Join Us
+    url: /join-us
 
   - title: GitHub
     url: https://github.com/Neuro-Interface-Lab
 
 project_entries:
-  - title: Projet 1
-    url: "#projects"
-    desc: Description courte du premier axe ou projet à mettre en avant.
+  - title: Research
+    url: /research
+    desc: Explore the main research themes, questions, and scientific directions of the lab.
 
-  - title: Projet 2
-    url: "#projects"
-    desc: Description courte du deuxième axe ou projet à mettre en avant.
+  - title: Open Science
+    url: /open-science
+    desc: Browse open-source tools, shared resources, datasets, and community-facing contributions.
 
-  - title: Projet 3
-    url: "#projects"
-    desc: Description courte du troisième axe ou projet à mettre en avant.
+  - title: Team
+    url: /team
+    desc: Meet current members, collaborators, and alumni.
+
+  - title: Publications
+    url: /publications
+    desc: Find publications and scholarly output gathered from Google Scholar.
+
+  - title: Join Us
+    url: /join-us
+    desc: Learn how to get in touch, collaborate, or express interest in joining the lab.
 
 footer_entries:
+  - title: Main
+    url: /
+
+  - title: Join Us
+    url: /join-us
+
   - title: GitHub
     url: https://github.com/Neuro-Interface-Lab

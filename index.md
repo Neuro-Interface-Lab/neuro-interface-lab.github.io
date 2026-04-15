@@ -1,15 +1,10 @@
 ---
 layout: home
-title: Accueil
-description: Site officiel du Neuro Interface Lab
+title: Main
+description: Research, neurotechnology, interfaces, and open science.
 ---
 
-# À propos
+# About
 {: #about}
 
-Le Neuro Interface Lab centralise des activités de recherche autour des interfaces neuronales, de la neurotechnologie, de l'instrumentation et des outils ouverts. Ce site servira de point d'entrée clair vers les projets, les ressources et les travaux portés par l'organisation.
-
-## Équipe
-{: #team}
-
-Présentation courte de l'équipe, des contributeurs et des collaborations.
+The Neuro Interface Lab brings together research activities in neural interfaces, neurotechnology, instrumentation, and open tools. This website is the main entry point for our research directions, open science contributions, team, publications, and collaboration opportunities.

@@ -19,6 +19,7 @@ Cette structure est pensée pour :
 - `index.md` : contenu principal de la page d'accueil
 - `assets/css/custom.css` : ajustements locaux de style
 - `assets/logo/` : identité graphique de l'organisation
+- `_data/publications.bib` : export Google Scholar utilisé pour la page Publications
 - `Gemfile` : dépendances Ruby/Jekyll modernes
 - `docker-compose.yml` : lancement local avec Docker
 - `.github/workflows/pages.yml` : build et déploiement GitHub Pages via GitHub Actions

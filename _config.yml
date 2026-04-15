@@ -1,7 +1,7 @@
 title: Neuro Interface Lab
-description: Site officiel du Neuro Interface Lab
+description: Research, neurotechnology, interfaces, and open science.
 author: Neuro Interface Lab
-lang: fr
+lang: en
 url: "https://neuro-interface-lab.github.io"
 baseurl: ""
 logo: "/assets/logo/neuro-interfaces-logo.png"
@@ -21,8 +21,19 @@ theme_config:
   show_old_projects: false
   show_misc_list: false
   home:
-    title_projects: Projets
+    title_projects: Explore
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll/scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_data
+  bibliography: publications.bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
