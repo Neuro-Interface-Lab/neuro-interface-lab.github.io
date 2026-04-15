@@ -3,7 +3,7 @@
 }
 
 :root {
-  --content-width: 48rem;
+  --content-width: 52rem;
 }
 
 body {
@@ -121,6 +121,28 @@ ol.bibliography li {
   text-justify: inter-word;
 }
 
+#projects + .horizontal-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  max-width: var(--content-width);
+  padding: 0;
+  width: 100%;
+}
+
+#projects + .horizontal-list li.card {
+  margin: 0;
+  min-width: 0;
+  width: auto;
+}
+
+#projects + .horizontal-list li.card a {
+  display: block;
+  height: 100%;
+}
+
 .research-figure {
   margin: 1.25rem 0 1.75rem;
   max-width: var(--content-width);
@@ -203,5 +225,15 @@ ol.bibliography li {
   .openscience-logo {
     max-width: 88px;
     width: 88px;
+  }
+
+  #projects + .horizontal-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 900px) {
+  #projects + .horizontal-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
