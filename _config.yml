@@ -1,0 +1,8 @@
+title: Neuro Interface Lab
+description: Site officiel du Neuro Interface Lab
+lang: fr
+url: "https://neuro-interface-lab.github.io"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
