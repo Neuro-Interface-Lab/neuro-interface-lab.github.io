@@ -1,4 +1,4 @@
-FROM ruby:3.1-alpine
+FROM ruby:3.2-alpine
 
 RUN apk add --no-cache \
     build-base \
@@ -11,6 +11,6 @@ RUN apk add --no-cache \
 
 WORKDIR /srv/jekyll
 
-RUN gem install --no-document bundler:2.3.25
+RUN gem install --no-document bundler
 
 EXPOSE 4000

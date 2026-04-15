@@ -1,8 +1,28 @@
 title: Neuro Interface Lab
 description: Site officiel du Neuro Interface Lab
+author: Neuro Interface Lab
 lang: fr
 url: "https://neuro-interface-lab.github.io"
+baseurl: ""
+logo: "/assets/logo/neuro-interfaces-logo.png"
 markdown: kramdown
+permalink: /:slug
+remote_theme: abhinavs/moonwalk
+theme_config:
+  appearance: "dark"
+  appearance_toggle: true
+  date_format: "%Y-%m-%d"
+  show_description: true
+  show_navbar: true
+  show_footer: true
+  show_copyright: true
+  show_projects: true
+  show_blog: false
+  show_old_projects: false
+  show_misc_list: false
+  home:
+    title_projects: Projets
 plugins:
   - jekyll-feed
-
+  - jekyll-sitemap
+  - jekyll-remote-theme

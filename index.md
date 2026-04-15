@@ -1,51 +1,15 @@
 ---
-layout: default
+layout: home
 title: Accueil
 description: Site officiel du Neuro Interface Lab
 ---
 
-<header class="hero">
-  <div class="container">
-    <h1>Neuro Interface Lab</h1>
-    <p class="subtitle">
-      Research, neurotechnology, interfaces, open science.
-    </p>
-    <nav>
-      <a href="#about">À propos</a>
-      <a href="#projects">Projets</a>
-      <a href="#team">Équipe</a>
-      <a href="https://github.com/Neuro-Interface-Lab">GitHub</a>
-    </nav>
-  </div>
-</header>
+# À propos
+{: #about}
 
-<main class="container">
-  <section id="about" class="card">
-    <h2>À propos</h2>
-    <p>
-      Le Neuro Interface Lab développe des outils, prototypes et ressources
-      autour des interfaces neuronales, de l’instrumentation et du logiciel libre.
-    </p>
-  </section>
+Le Neuro Interface Lab centralise des activités de recherche autour des interfaces neuronales, de la neurotechnologie, de l'instrumentation et des outils ouverts. Ce site servira de point d'entrée clair vers les projets, les ressources et les travaux portés par l'organisation.
 
-  <section id="projects" class="card">
-    <h2>Projets</h2>
-    <ul>
-      <li>Projet 1 - description courte</li>
-      <li>Projet 2 - description courte</li>
-      <li>Projet 3 - description courte</li>
-    </ul>
-  </section>
+## Équipe
+{: #team}
 
-  <section id="team" class="card">
-    <h2>Équipe</h2>
-    <p>
-      Présentation courte de l’équipe, des contributeurs et des collaborations.
-    </p>
-  </section>
-</main>
-
-<footer class="container footer">
-  <p>© 2026 Neuro Interface Lab</p>
-</footer>
-
+Présentation courte de l'équipe, des contributeurs et des collaborations.

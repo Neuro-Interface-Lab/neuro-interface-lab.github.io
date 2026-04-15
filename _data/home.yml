@@ -1,0 +1,29 @@
+navbar_entries:
+  - title: À propos
+    url: "#about"
+
+  - title: Équipe
+    url: "#team"
+
+  - title: Projets
+    url: "#projects"
+
+  - title: GitHub
+    url: https://github.com/Neuro-Interface-Lab
+
+project_entries:
+  - title: Projet 1
+    url: "#projects"
+    desc: Description courte du premier axe ou projet à mettre en avant.
+
+  - title: Projet 2
+    url: "#projects"
+    desc: Description courte du deuxième axe ou projet à mettre en avant.
+
+  - title: Projet 3
+    url: "#projects"
+    desc: Description courte du troisième axe ou projet à mettre en avant.
+
+footer_entries:
+  - title: GitHub
+    url: https://github.com/Neuro-Interface-Lab
